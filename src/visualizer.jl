@@ -98,7 +98,7 @@ function setelement!(mvis::MechanismVisualizer, frame::CartesianFrame3D, geometr
     # their built-in primitives, materials, and textures. All other meshes are
     # loaded as MeshFileGeometry which uses MeshIO to load the mesh geometry in
     # Julia (but does not currently handle any materials or textures).
-    if ext == ".dae"
+    if ext == ".dae" || ext == ".obj"
         obj = MeshFileObject(geometry.filename)
     else
         obj = Object(MeshFileGeometry(geometry.filename), material)
