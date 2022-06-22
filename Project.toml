@@ -29,7 +29,7 @@ NBInclude = "1, 2"
 OrderedCollections = "1"
 RigidBodyDynamics = "≥ 0.6.0"
 ValkyrieRobot = "0.2.1"
-julia = "≥ 0.7"
+julia = "≥ 0.7.0"
 
 [extras]
 Blink = "ad839575-38b3-5650-b840-f874b8c74a25"
